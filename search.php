@@ -9,7 +9,7 @@ check_session_id();
 
 require_once(dirname(__FILE__) . '/vendor/autoload.php');
 
-define("API_KEY", "AIzaSyDrt-9llJeTZyu_eh24p5URc8-k3aOzNx0");
+define("API_KEY", "");
 
 $client = new Google_Client();
 $client->setApplicationName("xxxxxxxxxxx");
